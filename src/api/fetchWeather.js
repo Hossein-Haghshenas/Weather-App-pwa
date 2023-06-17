@@ -1,14 +1,19 @@
 import axios from "axios";
 
-const URL = "https://api.openweathermap.org/data/2.5/weather";
-const API_KEY = "f33a484cf794d08d0148764789aaba32";
+const URL = "http://api.weatherapi.com/v1";
+const API_KEY = "70c87a1f99af4e288c774749231706";
 
-export const fetchWeather = async (query) => {
-  const { data } = axios.get(URL, {
-    q: query,
-    units: "metric",
-    APPID: API_KEY,
-  });
+export const fetchWeather = (query) => {
+  const axiosConfig = {
+    method: "GET",
+    baseURL: URL,
+    url: "/current.json",
+    params: { key: API_KEY, q: query },
+  };
 
-  return data;
+  return axios({ ...axiosConfig })
+    .then((res) => res.data)
+    .catch((err) => {
+      throw new Error(err);
+    });
 };
