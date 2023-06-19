@@ -1,18 +1,21 @@
 // ant design
-import { CloudOutlined } from "@ant-design/icons";
-import { Typography } from "antd";
-// Components
-import Container from "./Container";
+import { CloudOutlined, WarningTwoTone } from "@ant-design/icons";
+import { Space, Typography } from "antd";
 
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
-const Empty = ({ text }) => {
+const Empty = ({ text, preText }) => {
   return (
-    <Container>
-      <Title level={5}>
-        <CloudOutlined /> {text}
+    <Space direction="vertical" align="center">
+      <Title level={4}>
+        <CloudOutlined className="fs-20" /> {text}
       </Title>
-    </Container>
+      {preText && (
+        <Text>
+          <WarningTwoTone /> {preText}
+        </Text>
+      )}
+    </Space>
   );
 };
 

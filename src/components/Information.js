@@ -31,7 +31,7 @@ const Information = ({ weatherData, isLoading }) => {
   if (Object.keys(weatherData).length === 0) {
     return (
       <Container className="mt-5">
-        <Empty text="Enter Your City !" />
+        <Empty text="Enter Your City !" preText="notice : turn on your vpn" />
       </Container>
     );
   } else {
