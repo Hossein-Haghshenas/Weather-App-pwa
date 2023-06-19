@@ -13,7 +13,5 @@ export const fetchWeather = (query) => {
 
   return axios({ ...axiosConfig })
     .then((res) => res.data)
-    .catch((err) => {
-      throw new Error(err);
-    });
+    .catch((err) => err.message);
 };
