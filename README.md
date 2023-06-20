@@ -1,9 +1,8 @@
-<img alt="preview-img-1" src="./readme/img-1.png" width="450" height="350" />
-<img alt="preview-img-2" src="./readme/img-2.png" width="450" height="350" />
-
-<p align="center">
-  <img align="center" alt="preview-img-3" src="./readme/img-3.png" width="450" height="350" />
-</p>
+<div align="center">
+<img align="left" alt="preview-img-1" src="./readme/img-1.png" width="320" height="290" />
+<img align="center" alt="preview-img-2" src="./readme/img-2.png" width="320" height="290" />
+<img align="right"   alt="preview-img-3" src="./readme/img-3.png" width="320" height="290" />
+</div>
 
 <br />
 <hr/>
