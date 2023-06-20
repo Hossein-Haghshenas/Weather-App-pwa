@@ -1,5 +1,5 @@
 const CACHE = "weather-app-v-0.0.1";
-const urlToCache = ["index.html", "offline.html"];
+const urlToCache = ["index.html", "offline.html", "offline.css"];
 const self = this;
 
 // Install SW
