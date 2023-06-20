@@ -3,13 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./offline.css">
+    <title>Weather app</title>
+    <style>
+        * {
+            font: 1rem sans-serif;
+            margin: 0;
+            padding: 0;
+            border: none;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            transition: all 0.5s ease-in-out;
+        }
+
+        a:hover {
+            background-color: #ebdcfe;
+        }
+
+        .container {
+            width: 22rem;
+            height: 10rem;
+            padding: 1rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            border: 1px solid rgb(216, 216, 216);
+            border-radius: 10px;
+            box-shadow: 0 0 30px 30px #dbdbdb;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
     <section class="container">
-        <h1>Please check your connection</h1>
+        <h1>Please check your internet connection</h1>
+        <p>This app powered by <a href="https://www.linkedin.com/in/hossein-haghshenas-68a3601ab/"
+                target="_blank">hossein developer 💫</a></p>
     </section>
 </body>
 
