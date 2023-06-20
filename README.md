@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+<img alt="preview-img-1" src="./readme/img-1.png" width="450" height="350" />
+<img alt="preview-img-2" src="./readme/img-2.png" width="450" height="350" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img align="center" alt="preview-img-3" src="./readme/img-3.png" width="450" height="350" />
+</p>
+
+<br />
+<hr/>
+
+# Weather App PWA
+
+A weather application built with React and PWA (Progressive Web App) technologies. This project was created for practice and serves as a demonstration of React skills and the ability to build a Progressive Web App.
+
+## Features
+
+- Real-time weather information: Get up-to-date weather data for any location worldwide.
+- User-friendly interface: Clean and intuitive design for easy navigation and interaction.
+- PWA functionality: Install the app on your device for quick access
+- Responsive layout: Enjoy a seamless experience across various devices and screen sizes.
 
 ## Available Scripts
 
