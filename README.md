@@ -1,7 +1,7 @@
 <div align="center">
-<img align="left" alt="preview-img-1" src="./readme/img-1.png" width="320" height="290" />
-<img align="center" alt="preview-img-2" src="./readme/img-2.png" width="320" height="290" />
-<img align="right"   alt="preview-img-3" src="./readme/img-3.png" width="320" height="290" />
+<img alt="preview-img-1" src="./readme/img-1.png" width="300" height="280" />
+<img alt="preview-img-2" src="./readme/img-2.png" width="300" height="280" />
+<img alt="preview-img-3" src="./readme/img-3.png" width="300" height="280" />
 </div>
 
 <br />
